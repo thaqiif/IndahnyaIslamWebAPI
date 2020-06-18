@@ -54,6 +54,7 @@ Object name: **category**
 |------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | c    | String  | The name of one of the following categories: `semasa`, `dunia islam`, `hids`, `tokoh`, `tarbiah`, `kolumnis`, `kolumnis/kalam-tokoh`, `kolumnis/soal-jawab-agama`, `kolumnis/perkongsian-siyasah`, `infografik` |
 | pg   | Integer | *Optional.* The number of page for the category                                                                                                                                               |
+
 `Return` A JSON Object with following attribute (each):
 | Name       | Type   | Description                |
 |------------|--------|----------------------------|
@@ -73,10 +74,13 @@ Object name: **pagination**
 `GET` https://api-ii.herokuapp.com/article.php
 `Desc` Return the content of a post
 `Input` As following table
+
 | Name    | Type    | Description               |
 |---------|---------|---------------------------|
 | url     | String  | The permalink of the post |
+
 `Return` A JSON Object
+
 | Name      | Type   | Description                    |
 |-----------|--------|--------------------------------|
 | title     | String | The title of the post          |
